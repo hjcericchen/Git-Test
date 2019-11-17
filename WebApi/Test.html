@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html en='utf8'>
+  
+  <style>
+  div {
+      font-size: 12px;
+      border-radius: 10px;
+      border: solid 1px #336699;
+      padding: 15px 15px 15px 15px;
+      line-height: 20px;
+      width: 400px;
+  }
+  </style>
+  <script src='http://code.jquery.com/jquery-1.8.2.min.js'></script>
+  <script>
+  $(document).ready(function() {
+    testWebSocket();
+  });
+
+  function testWebSocket(){
+    let socket = new WebSocket("wss://javascript.info/article/websocket/demo/hello");
+
+socket.onopen = function(e) {
+  alert("[open] Connection established");
+  alert("Sending to server");
+  socket.send("My name is John");
+};
+
+socket.onmessage = function(event) {
+  alert(`[message] Data received from server: ${event.data}`);
+};
+
+socket.onclose = function(event) {
+  if (event.wasClean) {
+    alert(`[close] Connection closed cleanly, code=${event.code} reason=${event.reason}`);
+  } else {
+    // e.g. server process killed or network down
+    // event.code is usually 1006 in this case
+    alert('[close] Connection died');
+  }
+};
+
+socket.onerror = function(error) {
+  alert(`[error] ${error.message}`);
+};
+}
+  </script>
+  
+  
+  <button id='send'>send</button>
+  <div id='panel'></div>
+</html>

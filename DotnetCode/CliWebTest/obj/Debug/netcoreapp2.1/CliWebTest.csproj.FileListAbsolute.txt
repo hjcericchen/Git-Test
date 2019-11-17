@@ -1,0 +1,14 @@
+E:\Working\DotnetCode\CliWebTest\bin\Debug\netcoreapp2.1\CliWebTest.deps.json
+E:\Working\DotnetCode\CliWebTest\bin\Debug\netcoreapp2.1\CliWebTest.runtimeconfig.json
+E:\Working\DotnetCode\CliWebTest\bin\Debug\netcoreapp2.1\CliWebTest.runtimeconfig.dev.json
+E:\Working\DotnetCode\CliWebTest\bin\Debug\netcoreapp2.1\CliWebTest.dll
+E:\Working\DotnetCode\CliWebTest\bin\Debug\netcoreapp2.1\CliWebTest.pdb
+E:\Working\DotnetCode\CliWebTest\obj\Debug\netcoreapp2.1\CliWebTest.csprojAssemblyReference.cache
+E:\Working\DotnetCode\CliWebTest\obj\Debug\netcoreapp2.1\CliWebTest.csproj.CoreCompileInputs.cache
+E:\Working\DotnetCode\CliWebTest\obj\Debug\netcoreapp2.1\CliWebTest.RazorAssemblyInfo.cache
+E:\Working\DotnetCode\CliWebTest\obj\Debug\netcoreapp2.1\CliWebTest.RazorAssemblyInfo.cs
+E:\Working\DotnetCode\CliWebTest\obj\Debug\netcoreapp2.1\CliWebTest.AssemblyInfoInputs.cache
+E:\Working\DotnetCode\CliWebTest\obj\Debug\netcoreapp2.1\CliWebTest.AssemblyInfo.cs
+E:\Working\DotnetCode\CliWebTest\obj\Debug\netcoreapp2.1\CliWebTest.RazorTargetAssemblyInfo.cache
+E:\Working\DotnetCode\CliWebTest\obj\Debug\netcoreapp2.1\CliWebTest.dll
+E:\Working\DotnetCode\CliWebTest\obj\Debug\netcoreapp2.1\CliWebTest.pdb
